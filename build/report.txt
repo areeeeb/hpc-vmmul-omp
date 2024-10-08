@@ -1,0 +1,13 @@
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:12:22: missed: couldn't vectorize loop
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:29: missed: not vectorized: complicated access pattern.
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:14:25: missed: couldn't vectorize loop
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: missed: not vectorized: complicated access pattern.
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:9:6: note: vectorized 0 loops in function.
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: note: ***** Analysis failed with vector mode V4DF
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: note: ***** The result for vector mode V32QI would be the same
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: note: ***** Re-trying analysis with vector mode V16QI
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: note: ***** Analysis failed with vector mode V16QI
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: note: ***** Re-trying analysis with vector mode V8QI
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: note: ***** Analysis failed with vector mode V8QI
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: note: ***** Re-trying analysis with vector mode V4QI
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/dgemv-vectorized.cpp:16:15: note: ***** Analysis failed with vector mode V4QI

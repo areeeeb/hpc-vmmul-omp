@@ -1,0 +1,7 @@
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/build/CMakeFiles/rebuild_cache.dir
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/build/CMakeFiles/benchmark-openmp.dir
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/build/CMakeFiles/benchmark-blas.dir
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/build/CMakeFiles/edit_cache.dir
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/build/CMakeFiles/benchmark-vectorized.dir
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/build/CMakeFiles/benchmark-basic.dir
+/global/homes/a/areeb/assignment_3/hpc-vmmul-omp/build/CMakeFiles/benchmark.dir

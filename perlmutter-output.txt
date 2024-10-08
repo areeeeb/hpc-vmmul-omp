@@ -1,0 +1,131 @@
+areeb@nid004221:~/assignment_3/hpc-vmmul-omp/build> ./benchmark-basic 
+Description:    Basic implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+ MFLOP/s =591.70544
+ % Mem bandwidth util =0.02155
+ Elapsed time for computation =0.00354
+
+Working on problem size N=1024 
+ MFLOP/s =591.39458
+ % Mem bandwidth util =0.02154
+ Elapsed time for computation =0.00355
+
+Working on problem size N=2048 
+ MFLOP/s =588.17259
+ % Mem bandwidth util =0.02141
+ Elapsed time for computation =0.01426
+
+Working on problem size N=4096 
+ MFLOP/s =586.00911
+ % Mem bandwidth util =0.02132
+ Elapsed time for computation =0.05726
+
+Working on problem size N=8192 
+ MFLOP/s =585.18979
+ % Mem bandwidth util =0.02129
+ Elapsed time for computation =0.22936
+
+Working on problem size N=16384 
+ MFLOP/s =578.33430
+ % Mem bandwidth util =0.02104
+ Elapsed time for computation =0.92831
+
+areeb@nid004221:~/assignment_3/hpc-vmmul-omp/build> ./benchmark-vectorized 
+Description:    Vectorized implementation of matrix-vector multiply.
+
+Working on problem size N=1024 
+ MFLOP/s =2339.66272
+ % Mem bandwidth util =0.08520
+ Elapsed time for computation =0.00090
+
+Working on problem size N=1024 
+ MFLOP/s =2328.60096
+ % Mem bandwidth util =0.08480
+ Elapsed time for computation =0.00090
+
+Working on problem size N=2048 
+ MFLOP/s =2356.57563
+ % Mem bandwidth util =0.08577
+ Elapsed time for computation =0.00356
+
+Working on problem size N=4096 
+ MFLOP/s =2295.42445
+ % Mem bandwidth util =0.08353
+ Elapsed time for computation =0.01462
+
+Working on problem size N=8192 
+ MFLOP/s =2283.55336
+ % Mem bandwidth util =0.08309
+ Elapsed time for computation =0.05878
+
+Working on problem size N=16384 
+ MFLOP/s =2282.73356
+ % Mem bandwidth util =0.08305
+ Elapsed time for computation =0.23519
+
+areeb@nid004221:~/assignment_3/hpc-vmmul-omp/build> ./benchmark-blas 
+Description:    Reference dgemv.
+
+Working on problem size N=1024 
+ MFLOP/s =4435.45058
+ % Mem bandwidth util =0.16152
+ Elapsed time for computation =0.00047
+
+Working on problem size N=1024 
+ MFLOP/s =13004.62601
+ % Mem bandwidth util =0.47357
+ Elapsed time for computation =0.00016
+
+Working on problem size N=2048 
+ MFLOP/s =16737.01369
+ % Mem bandwidth util =0.60919
+ Elapsed time for computation =0.00050
+
+Working on problem size N=4096 
+ MFLOP/s =8143.41783
+ % Mem bandwidth util =0.29633
+ Elapsed time for computation =0.00412
+
+Working on problem size N=8192 
+ MFLOP/s =7086.58489
+ % Mem bandwidth util =0.25784
+ Elapsed time for computation =0.01894
+
+Working on problem size N=16384 
+ MFLOP/s =7531.81571
+ % Mem bandwidth util =0.27402
+ Elapsed time for computation =0.07128
+
+areeb@nid004221:~/assignment_3/hpc-vmmul-omp/build> ./benchmark-openmp 
+Description:    OpenMP dgemv.
+
+Working on problem size N=1024 
+ MFLOP/s =61.51344
+ % Mem bandwidth util =0.00224
+ Elapsed time for computation =0.03409
+
+Working on problem size N=1024 
+ MFLOP/s =301.39995
+ % Mem bandwidth util =0.01098
+ Elapsed time for computation =0.00696
+
+Working on problem size N=2048 
+ MFLOP/s =1205.68661
+ % Mem bandwidth util =0.04388
+ Elapsed time for computation =0.00696
+
+Working on problem size N=4096 
+ MFLOP/s =4712.72032
+ % Mem bandwidth util =0.17149
+ Elapsed time for computation =0.00712
+
+Working on problem size N=8192 
+ MFLOP/s =9149.89530
+ % Mem bandwidth util =0.33291
+ Elapsed time for computation =0.01467
+
+Working on problem size N=16384 
+ MFLOP/s =8774.13972
+ % Mem bandwidth util =0.31922
+ Elapsed time for computation =0.06119

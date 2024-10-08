@@ -129,3 +129,139 @@ Working on problem size N=16384
  MFLOP/s =8774.13972
  % Mem bandwidth util =0.31922
  Elapsed time for computation =0.06119
+
+
+ ===========================================================
+
+ areeb@nid004268:~/assignment_3/hpc-vmmul-omp/build> ./job-openmp
+OMP_NUM_THREASDS =  1
+Description:    OpenMP dgemv.
+
+Working on problem size N=1024 
+ MFLOP/s =2241.50731
+ % Mem bandwidth util =0.08163
+ Elapsed time for computation =0.00094
+
+Working on problem size N=1024 
+ MFLOP/s =2320.48217
+ % Mem bandwidth util =0.08450
+ Elapsed time for computation =0.00090
+
+Working on problem size N=2048 
+ MFLOP/s =2184.53049
+ % Mem bandwidth util =0.07951
+ Elapsed time for computation =0.00384
+
+Working on problem size N=4096 
+ MFLOP/s =2303.15480
+ % Mem bandwidth util =0.08381
+ Elapsed time for computation =0.01457
+
+Working on problem size N=8192 
+ MFLOP/s =2301.01968
+ % Mem bandwidth util =0.08372
+ Elapsed time for computation =0.05833
+
+Working on problem size N=16384 
+ MFLOP/s =2294.33837
+ % Mem bandwidth util =0.08347
+ Elapsed time for computation =0.23400
+
+OMP_NUM_THREASDS =  4
+Description:    OpenMP dgemv.
+
+Working on problem size N=1024 
+ MFLOP/s =2406.41204
+ % Mem bandwidth util =0.08763
+ Elapsed time for computation =0.00087
+
+Working on problem size N=1024 
+ MFLOP/s =4393.75407
+ % Mem bandwidth util =0.16000
+ Elapsed time for computation =0.00048
+
+Working on problem size N=2048 
+ MFLOP/s =4541.00521
+ % Mem bandwidth util =0.16528
+ Elapsed time for computation =0.00185
+
+Working on problem size N=4096 
+ MFLOP/s =7237.47807
+ % Mem bandwidth util =0.26336
+ Elapsed time for computation =0.00464
+
+Working on problem size N=8192 
+ MFLOP/s =8638.32969
+ % Mem bandwidth util =0.31430
+ Elapsed time for computation =0.01554
+
+Working on problem size N=16384 
+ MFLOP/s =8833.02190
+ % Mem bandwidth util =0.32136
+ Elapsed time for computation =0.06078
+
+OMP_NUM_THREASDS =  16
+Description:    OpenMP dgemv.
+
+Working on problem size N=1024 
+ MFLOP/s =1155.18197
+ % Mem bandwidth util =0.04207
+ Elapsed time for computation =0.00182
+
+Working on problem size N=1024 
+ MFLOP/s =7640.70521
+ % Mem bandwidth util =0.27824
+ Elapsed time for computation =0.00027
+
+Working on problem size N=2048 
+ MFLOP/s =4926.81555
+ % Mem bandwidth util =0.17932
+ Elapsed time for computation =0.00170
+
+Working on problem size N=4096 
+ MFLOP/s =9488.28076
+ % Mem bandwidth util =0.34527
+ Elapsed time for computation =0.00354
+
+Working on problem size N=8192 
+ MFLOP/s =10346.78809
+ % Mem bandwidth util =0.37646
+ Elapsed time for computation =0.01297
+
+Working on problem size N=16384 
+ MFLOP/s =9553.96752
+ % Mem bandwidth util =0.34759
+ Elapsed time for computation =0.05619
+
+OMP_NUM_THREASDS =  64
+Description:    OpenMP dgemv.
+
+Working on problem size N=1024 
+ MFLOP/s =307.01735
+ % Mem bandwidth util =0.01118
+ Elapsed time for computation =0.00683
+
+Working on problem size N=1024 
+ MFLOP/s =2311.38249
+ % Mem bandwidth util =0.08417
+ Elapsed time for computation =0.00091
+
+Working on problem size N=2048 
+ MFLOP/s =4827.50350
+ % Mem bandwidth util =0.17571
+ Elapsed time for computation =0.00174
+
+Working on problem size N=4096 
+ MFLOP/s =9998.48985
+ % Mem bandwidth util =0.36383
+ Elapsed time for computation =0.00336
+
+Working on problem size N=8192 
+ MFLOP/s =9905.81406
+ % Mem bandwidth util =0.36042
+ Elapsed time for computation =0.01355
+
+Working on problem size N=16384 
+ MFLOP/s =9351.22793
+ % Mem bandwidth util =0.34022
+ Elapsed time for computation =0.05741
